@@ -8,16 +8,16 @@ public class ContentController {
 
     @GetMapping("/home")
     public String handleWelcomePage() {
-        return "home";
+        return "index";
     }
 
     @GetMapping("/admin/home")
     public String handleAdminHomePage() {
-        return "admin/home";
+        return "admin_home";
     }
 
     @GetMapping("/user/home")
     public String handleUserHomePage() {
-        return "user/home";
+        return "user_home";
     }
 }
